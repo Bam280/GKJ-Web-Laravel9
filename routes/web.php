@@ -41,7 +41,7 @@ Auth::routes([
     'verify' =>false,
 ]);
 
-Route::get('/logout', 'Auth\LoginController@logout')->name('logout1');
+Route::get('/logout', 'App\Http\Controllers\Auth\LoginController@logout')->name('logout1');
 
 Route::get('/home', 'App\Http\Controllers\HomeController@index')->name('home');
 
