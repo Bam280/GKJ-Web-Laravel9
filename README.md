@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Get Started
+1. Pertama silahkan klik tombol fork yang ada pada pojok kanan atas, agar kalian dapat repository sendiri dari repo ini.
+2. Selanjutnya silahkan clone templatenya dari repository yang baru saja kalian fork.
+3. Setelah berhasil di clone, jalankan perintah `composer install` atau `composer update`
+4. Silahkan buat database baru pada local kalian, selanjutnya rename file `env.example` menjadi `.env`, kemudian isi bagian database dengan nama database, username database, dan password database kalian (apabila tidak menggunakan password, harap dibiarkan kosong) yang baru kalian buat.
+5. Jalankan perintah `php artisan migrate:fresh`, kemudian jalankan perintah `php artisan generate:key`
+6. Bila sudah kalian bisa langung menjalankan local development server menggunakan perintah `php artisan serve`
+7. Happy Coding !!
+
+## Admin access
+1. Kalian bisa menggunakan url `http://localhost:8000/register` atau `127.0.0.1:8000/register` untuk mengakses halaman register saat pertama kali, dan membaut akun admin agar bisa login kedalam sistem admin yang sudah disediakan.
+2. Kalian bisa menggunakan url `http://localhost:8000/login` atau `127.0.0.1:8000/login` untuk mengakses halaman login dan admin yang sudah disediakan.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
